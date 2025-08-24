@@ -23,11 +23,32 @@ This tool performs static analysis on PyTorch training scripts to predict:
 
 ## **Installation**
 
-### **From Source**
+### **From Source (Development)**
+```bash
+# Clone the repository
+git clone https://github.com/kpatel513/ai-training-preflight
+cd ai-training-preflight
+
+# Install in editable mode (recommended for development)
+pip install -e .
+
+# Or install with development dependencies
+pip install -e ".[dev]"
+```
+
+### **From Source (Regular Installation)**
 ```bash
 git clone https://github.com/kpatel513/ai-training-preflight
 cd ai-training-preflight
-pip install -e .
+pip install .
+```
+### **Verify Installation**
+```bash
+# Check if the command is available
+preflight --help
+
+# Run a quick test
+preflight check examples/memory_overflow.py
 ```
 
 ### **Requirements**
