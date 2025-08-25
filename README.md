@@ -230,8 +230,6 @@ ai-training-preflight/
 │   ├── extractors/      # AST-based information extraction
 │   └── utils/           # Reporting and utilities
 ├── examples/            # Example training scripts
-├── tests/              # Test suite
-└── docs/               # Documentation
 ```
 
 ## **Contributing**
